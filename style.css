@@ -1,0 +1,50 @@
+.movie_clip{
+    /* padding-top: 100px; */
+}
+.navbar-brand{
+    height: 100px;
+    padding-left: 0;
+}
+@media screen and (min-width: 768px){
+    .navbar-brand{
+        padding-left: 80px;
+    } 
+}
+.navbar-brand img{
+    max-height: 90px;
+}
+/* ======================= NAVBAR ============== */
+.bg-light {
+    background-color: #ffffff!important;
+}
+/* ================================================ */
+.movie_clip{
+    height: 100%;
+    /* flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left; */
+    position: relative;
+}
+.action_btn{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* padding-right: 15%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: absolute;
+    /* bottom: 2%; */
+    right: 10%;
+    /* margin-top: auto; */
+    /* display: flex; */
+    /* align-items:baseline; */
+}
+
+/* ================================== */
+
+.marketing_image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
